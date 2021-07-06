@@ -33,6 +33,8 @@ render() {
     <div className = "burgerBody">
     <header className = "burgerHeader">
     <h1>Burger Stacker</h1>
+    <h3>Create your own Burger, 
+      by clicking on each ingredient you want to add ! </h3>
     </header>
     <main>
       <IngredientList ingredients = {ingredients} add = {this.add} />
